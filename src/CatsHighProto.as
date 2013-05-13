@@ -26,7 +26,7 @@ package
 			
 			CatsHighTable.prepare();
 			GameData.state = GameConstants.GAME_STATE_IDLE;
-			GameData.client = false;
+			GameData.client = true;
 			trace(Mobile.isAndroid(), Mobile.isIOS());
 			if(Mobile.isAndroid() || Mobile.isIOS())
 			{
